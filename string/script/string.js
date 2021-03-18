@@ -1,0 +1,31 @@
+var a="hello world!"
+function string(){
+   var b =a.toUpperCase();
+   var c = a.toLowerCase();
+   var d= a.length;
+   var e = a.indexOf("hello");
+   var f= a.lastIndexOf("world",11);
+   var g =a.search("w")
+   var h =a.slice(2,4);
+   var i = a.substring(1,8);
+   var j =a.substr(2);
+   var k =a.replace("h","j");
+   var l = a.trim();
+   var m = a.charAt(0);
+   var n= a.charCodeAt(1);
+   var o= a.padStart(5,0);
+    document.getElementById('text1').innerHTML=b;
+    document.getElementById('text2').innerHTML=c;
+    document.getElementById('text3').innerHTML=d;
+    document.getElementById('text4').innerHTML=e;
+    document.getElementById('text5').innerHTML=f;
+    document.getElementById('text6').innerHTML=g;
+    document.getElementById('text7').innerHTML=h;
+    document.getElementById('text8').innerHTML=i;
+    document.getElementById('text9').innerHTML=j;
+    document.getElementById('text10').innerHTML=k;
+    document.getElementById('text11').innerHTML=l;
+    document.getElementById('text12').innerHTML=m;
+    document.getElementById('text13').innerHTML=n;
+    document.getElementById('text14').innerHTML=o;
+}
